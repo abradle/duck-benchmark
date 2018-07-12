@@ -1,5 +1,5 @@
 prot_code: '2mcp'
-prot_int: 'A_ARG_52_NH1'
+prot_int: 'H_ARG_52_NH1'
 lig_id: 'PC'
 cutoff: 12
 md_len: 0.5
