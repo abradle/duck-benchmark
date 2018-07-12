@@ -1,7 +1,7 @@
 prot_code: '1exa'
 prot_int: 'A_SER_289_OG'
 lig_id: '394'
-cutoff: 12
+cutoff: 8
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001
