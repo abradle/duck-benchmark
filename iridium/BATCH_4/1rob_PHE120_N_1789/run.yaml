@@ -1,0 +1,11 @@
+prot_code: '1rob'
+prot_int: 'A_PHE_120_N'
+lig_id: 'C2P'
+cutoff: 12
+md_len: 0.5
+distance: 2.5
+init_velocity: 0.00001
+num_smd_cycles: 20
+gpu_id: '1'
+apo_pdb_file: '1rob_apo.pdb'
+mol_file: '1rob_C2P.mol'

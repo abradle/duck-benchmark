@@ -1,0 +1,11 @@
+prot_code: '1k3u'
+prot_int: 'A_SER_235_OG'
+lig_id: 'IAD'
+cutoff: 12
+md_len: 0.5
+distance: 2.5
+init_velocity: 0.00001
+num_smd_cycles: 20
+gpu_id: '2'
+apo_pdb_file: '1k3u_apo.pdb'
+mol_file: '1k3u_IAD.mol'

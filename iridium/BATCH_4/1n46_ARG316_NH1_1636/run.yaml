@@ -1,0 +1,11 @@
+prot_code: '1n46'
+prot_int: 'A_ARG_316_NH1'
+lig_id: 'PFA'
+cutoff: 12
+md_len: 0.5
+distance: 2.5
+init_velocity: 0.00001
+num_smd_cycles: 20
+gpu_id: '2'
+apo_pdb_file: '1n46_apo.pdb'
+mol_file: '1n46_PFA.mol'

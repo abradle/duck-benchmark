@@ -1,0 +1,11 @@
+prot_code: '1yv3'
+prot_int: 'A_LEU_262_O'
+lig_id: 'BIT'
+cutoff: 12
+md_len: 0.5
+distance: 2.5
+init_velocity: 0.00001
+num_smd_cycles: 20
+gpu_id: '1'
+apo_pdb_file: '1yv3_apo.pdb'
+mol_file: '1yv3_BIT.mol'

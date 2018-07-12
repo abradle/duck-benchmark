@@ -1,0 +1,11 @@
+prot_code: '1fh9'
+prot_int: 'A_GLU_233_OE2'
+lig_id: 'LOX'
+cutoff: 12
+md_len: 0.5
+distance: 2.5
+init_velocity: 0.00001
+num_smd_cycles: 20
+gpu_id: '0'
+apo_pdb_file: '1fh9_apo.pdb'
+mol_file: '1fh9_LOX.mol'

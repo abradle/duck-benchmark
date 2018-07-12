@@ -1,0 +1,11 @@
+prot_code: '1l7f'
+prot_int: 'A_ARG_118_NH1'
+lig_id: 'BCZ'
+cutoff: 12
+md_len: 0.5
+distance: 2.5
+init_velocity: 0.00001
+num_smd_cycles: 20
+gpu_id: '3'
+apo_pdb_file: '1l7f_apo.pdb'
+mol_file: '1l7f_BCZ.mol'

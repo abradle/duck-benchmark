@@ -1,0 +1,11 @@
+prot_code: '1v0p'
+prot_int: 'A_ASP_85_OD1'
+lig_id: 'PVB'
+cutoff: 12
+md_len: 0.5
+distance: 2.5
+init_velocity: 0.00001
+num_smd_cycles: 20
+gpu_id: '3'
+apo_pdb_file: '1v0p_apo.pdb'
+mol_file: '1v0p_PVB.mol'

@@ -1,0 +1,11 @@
+prot_code: '1f0u'
+prot_int: 'A_SER_190_OG'
+lig_id: 'RPR'
+cutoff: 12
+md_len: 0.5
+distance: 2.5
+init_velocity: 0.00001
+num_smd_cycles: 20
+gpu_id: '2'
+apo_pdb_file: '1f0u_apo.pdb'
+mol_file: '1f0u_RPR.mol'
