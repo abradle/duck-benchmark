@@ -144,7 +144,7 @@ for yaml_file in run_files:
         wqb = get_Wqb_value_all(base_dir,run_name)
         results.append(("wqb",wqb))
     except:
-        os.remove(run_name+'.png')
+        if os.path.isfile(run_name+'.png'): os.remove(run_name+'.png')
         results.append(("wqb",None))
 new_d = conv_to_dict(out_d)
 print(new_d)
