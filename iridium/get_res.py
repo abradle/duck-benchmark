@@ -7,7 +7,13 @@ matplotlib.use("agg")
 
 import matplotlib.pyplot as plt
 
-
+def conv_to_dict(out_data)
+  for key in out_data:                     
+    this_data = out_data[key]
+    new_data[key] = {}                                    
+    for data in this_data:                    
+      new_data[key][data[0]] = data[1] 
+  return new_data
 
 def get_wqb_simple(file_duck_dat):
     f = open(file_duck_dat,'r')
@@ -138,4 +144,5 @@ for yaml_file in run_files:
     except:
         os.remove(run_name+'.png')
         results.append(("wqb",None))
-print(out_d)
+new_d = conv_to_dict(out_d)
+print(new_d)
