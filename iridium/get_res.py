@@ -7,7 +7,9 @@ matplotlib.use("agg")
 
 import matplotlib.pyplot as plt
 
-def conv_to_dict(out_data)
+  
+def conv_to_dict(out_data):
+  new_data = {}
   for key in out_data:                     
     this_data = out_data[key]
     new_data[key] = {}                                    
