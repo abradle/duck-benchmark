@@ -1,7 +1,7 @@
 prot_code: '1ulb'
 prot_int: 'A_GLU_201_OE1'
 lig_id: 'GUN'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

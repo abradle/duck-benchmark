@@ -1,7 +1,7 @@
 prot_code: '1fh8'
 prot_int: 'A_GLN_203_OE1'
 lig_id: 'XIF'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

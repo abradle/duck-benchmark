@@ -1,7 +1,7 @@
 prot_code: '1k3u'
 prot_int: 'A_SER_235_OG'
 lig_id: 'IAD'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

@@ -1,7 +1,7 @@
 prot_code: '1hgj'
 prot_int: 'A_ASN_137_N'
 lig_id: 'AMN'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

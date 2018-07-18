@@ -1,7 +1,7 @@
 prot_code: '1n46'
 prot_int: 'A_ARG_316_NH1'
 lig_id: 'PFA'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

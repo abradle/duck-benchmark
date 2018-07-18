@@ -1,7 +1,7 @@
 prot_code: '1hgi'
 prot_int: 'A_TYR_98_OH'
 lig_id: 'ANA'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

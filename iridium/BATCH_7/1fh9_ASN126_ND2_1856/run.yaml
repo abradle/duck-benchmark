@@ -1,7 +1,7 @@
 prot_code: '1fh9'
 prot_int: 'A_ASN_126_ND2'
 lig_id: 'LOX'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

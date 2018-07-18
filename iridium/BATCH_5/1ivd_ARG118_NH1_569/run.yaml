@@ -1,7 +1,7 @@
 prot_code: '1ivd'
 prot_int: 'A_ARG_118_NH1'
 lig_id: 'ST1'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

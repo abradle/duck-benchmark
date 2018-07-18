@@ -1,7 +1,7 @@
 prot_code: '1lpz'
 prot_int: 'B_ASP_189_OD1'
 lig_id: 'CMB'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

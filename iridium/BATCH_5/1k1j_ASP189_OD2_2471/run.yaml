@@ -1,7 +1,7 @@
 prot_code: '1k1j'
 prot_int: 'A_ASP_189_OD2'
 lig_id: 'FD2'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001

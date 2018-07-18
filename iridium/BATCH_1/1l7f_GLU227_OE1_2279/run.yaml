@@ -1,7 +1,7 @@
 prot_code: '1l7f'
 prot_int: 'A_GLU_227_OE1'
 lig_id: 'BCZ'
-cutoff: 12
+cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001
