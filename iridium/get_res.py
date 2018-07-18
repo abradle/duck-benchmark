@@ -147,4 +147,14 @@ for yaml_file in run_files:
         if os.path.isfile(run_name+'.png'): os.remove(run_name+'.png')
         results.append(("wqb",None))
 new_d = conv_to_dict(out_d)
-print(new_d)
+
+for key in new_d:
+    header = list(new_d[key].keys())
+
+out_f = open("data.csv","w")
+out_f.write(",".join(header)+"\n")
+for key in new_d:
+    w_list = []
+    for head in header:
+        w_list.append(str(new_d[key][head]))
+    out_f.write(",".join(w_list)+"\n")
