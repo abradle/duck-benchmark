@@ -150,11 +150,15 @@ new_d = conv_to_dict(out_d)
 
 for key in new_d:
     header = list(new_d[key].keys())
-
+header.append("title")
 out_f = open("data.csv","w")
 out_f.write(",".join(header)+"\n")
 for key in new_d:
     w_list = []
     for head in header:
+        if head =="title":continue
         w_list.append(str(new_d[key][head]))
+    w_list.append(key)
     out_f.write(",".join(w_list)+"\n")
+
+
