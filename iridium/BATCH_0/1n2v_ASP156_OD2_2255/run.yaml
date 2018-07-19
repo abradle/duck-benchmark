@@ -8,4 +8,4 @@ init_velocity: 0.00001
 num_smd_cycles: 1
 gpu_id: '3'
 apo_pdb_file: '1n2v_apo.pdb'
-mol_file: '1n2v_BDI.mol'
+mol_file: ligand.mol
