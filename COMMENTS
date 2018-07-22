@@ -1,0 +1,35 @@
+System	Comment
+1b9v_GLU276_OE2_3100	More or less ok (I sugest more Mds). Sharp edge means group flip.
+1br6_VAL81_O_1295	Wrong protonation state (PS) of LIG
+1c1b_LYS101_O_1593	OK
+1exa_MET272_SD_1437	OK
+1exa_SER289_OG_1722	More or less ok
+1f0t_ASP189_OD1_2470	OK
+1f0u_SER190_OG_2481	OK (again flip in the group)
+1fh8_GLN203_OE1_3004	OK
+1fh8_TRP273_NE1_4102	More or less ok
+1fh9_ASN126_ND2_1856	Wrong PS of HIS. HIE9 should be HID
+1fh9_GLU233_OE2_3481	Wrong PS of HIS. HIE15 should be HID
+1fhd-2_GLU127_OE2_1871	Wrong PS of LIG and HIE42should be HIP and HIE15 should be HID
+1hgh-1_GLY135_O_1985	OK
+1hgh-1_SER136_OG_1992	OK. Flip in the COO group
+1hgi_GLY135_O_1984	OK
+1hgi_TYR98_OH_1438	OK
+1hgj_ASN137_N_1999	OK
+1hwi_LYS691_NZ_9397	OK
+1ivd_ARG118_NH1_569	More or less ok
+1k1j_ASP189_OD2_2471	OK
+1k3u_SER235_OG_3501	OK
+1l2s_ALA318_O_4782	The new chunk is slightly bigger and one cap NME26 is detached from the rest of structure
+1l7f_ARG118_NH1_568	More or less OK (can’t explain the outstanding traj)
+1l7f_GLU227_OE1_2279	More or less ok
+1lpz_ASP189_OD1_3562	OK
+1n2v_ASP156_OD2_2255	More or less ok
+1n46_ARG316_NH1_1636	OK. Wrong PS of LIG but is the same a s in the reference simulation
+1q1g_GLU184_OE2_2791	Much bigger chunk
+1rob_PHE120_N_1789	Wrong PS of HIS. HIE10 should be HIP
+1ulb_GLU201_OE1_3136	OK
+1v0p_ASP85_OD1_1410	Much bigger chunk with fragment blocking ligand from dissociating
+1ydr_VAL123_N_1823	OK
+1yv3_LEU262_O_3916	More or less ok
+2mcp_ARG52_NH1_781	Wrong PS of LIG
