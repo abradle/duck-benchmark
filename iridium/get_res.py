@@ -26,8 +26,8 @@ def get_wqb_simple(file_duck_dat):
     f.close()
     data = np.array(data[1:])
     Work = data[:,3]
-    Wqb_max = max(Work[:400])
-    Wqb_min = min(Work[400:])
+    Wqb_max = max(Work[400:])
+    Wqb_min = min(Work[:400])
     Wqb_value = Wqb_max - Wqb_min
     return(Wqb_value, data, Wqb_min)
 
