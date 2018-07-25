@@ -2,6 +2,7 @@ options:
   minimize: yes
   verbose: yes
   temperature: 300*kelvin
+  pressure: 1*atmosphere
   platform: CUDA
   output_dir: implicit
   resume_setup: yes
