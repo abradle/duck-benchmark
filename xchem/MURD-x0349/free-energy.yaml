@@ -8,9 +8,9 @@ options:
   resume_simulation: yes
 
 molecules:
-  Abl:
+  prot:
     filepath: no_buffer_altlocs.pdb
-  STI:
+  lig:
     filepath: MURD-x0349_params.mol2 
     antechamber:
       charge_method: bcc
@@ -21,9 +21,9 @@ solvents:
     implicit_solvent: OBC2 # Onufriev-Bashford-Case GBSA model, name is related to Implicit solvents in OpenMM
 
 systems:
-  Abl-STI:
-    receptor: Abl
-    ligand: STI
+  prot-lig:
+    receptor: prot
+    ligand: lig
     solvent: GBSA
     leap:
       parameters: [leaprc.protein.ff14SB, leaprc.gaff2, leaprc.water.tip4pew]
@@ -41,7 +41,7 @@ protocols:
         lambda_sterics:        [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 0.90, 0.80, 0.70, 0.60, 0.50, 0.40, 0.30, 0.20, 0.10, 0.00]
 
 experiments:
-  system: Abl-STI
+  system: prot-lig
   protocol: absolute-binding
   restraint:
     type: Boresch
