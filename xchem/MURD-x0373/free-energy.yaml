@@ -2,6 +2,7 @@ options:
   minimize: yes
   verbose: yes
   temperature: 300*kelvin
+  pressure: 1*atmosphere
   platform: CUDA
   output_dir: implicit
   resume_setup: yes
@@ -16,17 +17,21 @@ molecules:
       charge_method: bcc
 
 solvents:
-  GBSA:
-    nonbonded_method: NoCutoff # Main definition of the nonbonded method
-    implicit_solvent: OBC2 # Onufriev-Bashford-Case GBSA model, name is related to Implicit solvents in OpenMM
+  pme:
+    nonbonded_method: PME
+    nonbonded_cutoff: 9*angstroms
+    clearance: 16*angstroms
+    positive_ion: Na+
+    negative_ion: Cl-
 
 systems:
   prot-lig:
     receptor: prot
     ligand: lig
-    solvent: GBSA
+    solvent: pme
     leap:
       parameters: [leaprc.protein.ff14SB, leaprc.gaff2, leaprc.water.tip4pew]
+    pack: yes
 
 protocols:
   absolute-binding:
