@@ -4,5 +4,5 @@ cutoff: 9
 md_len: 0.5
 distance: 2.5
 init_velocity: 0.00001
-num_smd_cycles: 20
+num_smd_cycles: 10
 gpu_id: "0"
